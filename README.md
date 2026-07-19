@@ -4,6 +4,7 @@
 Sitio web de ecommerce desarrollado con HTML, CSS y Javascript. Incluye página de inicio, Tienda con catálogo de productos, formulario de contacto y carrito de compras.
 
 📁 Estructura
+
 PROYECTO/
 ├── index.html
 ├── README.md
