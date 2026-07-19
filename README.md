@@ -34,6 +34,7 @@ PROYECTO/
     └── m-pagos.png
 
 🧭 Instrucciones para visualizar el proyecto
+
 Antes que nada, la pagina Home y parte de la pagina de Contacto , son parte de la Pre-Entrega asique decidi dejarlas tal como estaban.
 
  1. Recorrer la pagina Home para ver lo que se pudo avanzar en el proyecto.
