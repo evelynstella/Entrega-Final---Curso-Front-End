@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo-chico.ico">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style/index.css" >
+    <title> Pixelia </title>
+</head>
+<body>
+   <header class="header">
+      <!-- Navegador de la pagina -->
+      <a href="#"> 
+         <img src="img/logo-pag.png" class="logo"  alt="logo principal" width="120px" height="120px">
+      </a>
+       <div>
+          <ul class="nav-list"> 
+             <li> <a href="#"> Home </a> </li>
+             <li> <a href="pages/tienda.html"> Tienda </a> </li>
+             <li> <a href="pages/contacto.html"> Contacto </a> </li>
+             <li>
+                <a href="./pages/carrito.html">
+                   <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                </a>
+             </li>
+                <a href="#" id="close" class="close">
+                   <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+          </ul>
+       </div>
+       <div class="mobile">
+            <a href="pages/carrito.html">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+       </div>
+   </header>
+   <main>
+         <!-- flayer de la pagina-->
+           <section class="Bienvenida">
+              <div class="Bienvenida-texto">
+                <h2> juegos digitales de tus consolas favoritas </h2>
+                <p> compra facil , rapida y segura </p>
+                   <a href="pages/tienda.html"  class="Bienvenida-boton"> 
+                    <button> acceder al catalogo </button> 
+                   </a>
+              </div>
+           </section>
+            <!-- Ofertas destacadas de la pagina-->
+           <section class="ofertas">
+                <h2>Ofertas por el finde XXL</h2>
+                   <div class="cards-contenedor">
+                      <div class="card">
+                         <img src="img/juegos/Life Is Strange 2.jpg" alt="Life Is Strange 2">
+                         <h5> Life Is Strange 2 | PS4 </h5>
+                         <h3> $ 75.720,00</h3>
+                         <a href="#" class="carrito"> Agregar </a>
+                      </div>
+                   </div>
+           </section>
+            <!-- Nuevos juegos destacados de la pagina-->
+            <section class="nuevo">
+                <h2> Lo nuevo </h2>
+                   <div class="cards-contenedor">
+                      <div class="card">
+                         <img src="img/juegos/tomodachi life.jpg" alt="Tomodachi Life: Living The Dream">
+                         <h5> Tomodachi life 2 | NS2 </h5>
+                         <h3> $ 89.290,00</h3>
+                         <a href="#" class="carrito"> Agregar </a>
+                      </div>
+                   </div>
+           </section>
+           </section>
+           <!-- reseñas de la web-->
+          <section class="reseñas">
+               <h2> Reseñas </h2>
+                   <div class="reseñas-contenedor"> 
+                      <div class="reseñas-cu"> 
+                         <span> Aurora G. </span>
+                         <h4> hace 3 horas </h4>
+                         <p>Tengo esta página en favoritos. Cada que sale un juego nuevo siempre lo busco aquí primero! </p>
+                            <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                            </div>
+                       </div>           
+                   </div>
+           </section>
+   </main>
+   <footer class="foot-pag">
+       <div class="logo-foot">
+         <img src="img/logo-pag.png" alt="logo de la marca" width="140px" height="140px">
+       </div>
+       <div class="seguinos">
+          <h4> Seguinos en nuestras redes </h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+       </div>
+       <div class="pasarela-pagos">
+          <h4> Pasarela de pagos seguras </h4>
+          <img src="img/m-pagos.png" alt="Métodos de pago">
+       </div>
+       <div class="copy">
+          <p> © 2026 Pixelia | Todos los derechos reservados. </p>
+       </div>
+   </footer>
+   <script src="javascript/btn-hamburguesa.js"> </script>
+</body>
+</html>

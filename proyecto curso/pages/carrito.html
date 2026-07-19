@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/logo-chico.ico">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style/carrito.css">
+    <title> Contacto </title>
+</head>
+<body>
+   <header class="header">
+      <!-- Navegador de la pagina -->
+      <a href="../index.html"> 
+         <img src="../img/logo-pag.png" class="logo"  alt="logo principal" width="120px" height="120px">
+      </a>
+       <div>
+          <ul class="nav-list"> 
+             <li> <a href="../index.html"> Home </a> </li>
+             <li> <a href="../pages/tienda.html"> Tienda </a> </li>
+             <li> <a href="../pages/contacto.html"> Contacto </a> </li>
+             <li>
+                <a href="#">
+                   <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                </a>
+             </li>
+                <a href="#" id="close" class="close">
+                   <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+          </ul>
+       </div>
+       <div class="mobile">
+            <a href="../pages/carrito.html">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+       </div>
+   </header>
+
+   <!-- Carrito de la pagina -->
+   <section id="cart" class="section-p1">
+      <div class="carrito-scroll"> 
+          <table width="100%">
+              <thead>
+                 <tr>
+                     <td>  </td>
+                     <td> Producto </td>
+                     <td>  </td>
+                     <td> Precio </td>
+                     <td> Cantidad </td>
+                     <td> Subtotal </td>
+                 </tr>
+              </thead>
+             <!-- Aquí se insertan los productos dinámicamente -->
+             <tbody id="tabla_carrito">
+              <!-- JS agregará las filas aquí -->
+             </tbody>
+          </table>
+      </div>
+   </section>
+   <section id="cart-add" class="section-p1">
+          <!-- TOTAL DEL CARRITO -->
+           <div id="subtotal">
+             <h3> Total del Carrito </h3>
+                 <table>
+                     <tr>
+                         <td> Subtotal del Carrito </td>
+                         <td id="subtotal_carrito"> $ 0.00 </td>
+                     </tr>
+                     <tr>
+                         <td> Envío </td>
+                         <td> Gratis </td>
+                     </tr>
+                     <tr>
+                          <td><strong>Total</strong></td>
+                          <td id="total_carrito"> <strong> $0.00 </strong> </td>
+                     </tr>
+                 </table>
+             <button class="normal"> Proceder al pago </button>
+           </div>
+    </section>
+
+   <!-- Footer de la pagina -->
+   <footer class="foot-pag">
+       <div class="logo-foot">
+         <img src="../img/logo-pag.png" alt="logo de la marca" width="140px" height="140px">
+       </div>
+       <div class="seguinos">
+          <h4> Seguinos en nuestras redes </h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+       </div>
+       <div class="pasarela-pagos">
+          <h4> Pasarela de pagos seguras </h4>
+          <img src="../img/m-pagos.png" alt="Métodos de pago">
+       </div>
+       <div class="copy">
+          <p> © 2026 Pixelia | Todos los derechos reservados. </p>
+       </div>
+   </footer>
+   <script src="../javascript/carrito.js">  </script>
+   <script src="../javascript/btn-hamburguesa.js"> </script>
+  </body>
+</html>
