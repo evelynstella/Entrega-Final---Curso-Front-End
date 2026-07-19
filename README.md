@@ -1,6 +1,7 @@
 # Entrega-Final---Curso-Front-End
 
 🎀 Pixelia — Ecommerce
+
 Sitio web de ecommerce desarrollado con HTML, CSS y Javascript. Incluye página de inicio, Tienda con catálogo de productos, formulario de contacto y carrito de compras.
 
 📁 Estructura
